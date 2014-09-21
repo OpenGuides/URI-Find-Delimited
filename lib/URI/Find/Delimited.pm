@@ -107,7 +107,7 @@ then any URIs immediately preceded with a double-quote character will
 not be matched, ie your callback will not be executed for them and
 they'll be treated just as normal text.
 
-This is kinda lame but it's in here because I need to be able to
+This is a bit of a hack but it's in here because I need to be able to
 ignore things like
 
   <img src="http://foo.com/bar.gif">
