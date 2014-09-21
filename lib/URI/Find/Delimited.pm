@@ -9,6 +9,7 @@ use base qw(URI::Find);
 
 # For 5.005_03 compatibility (copied from URI::Find::Schemeless)
 use URI::Find ();
+use URI::URL;
 
 =head1 NAME
 
